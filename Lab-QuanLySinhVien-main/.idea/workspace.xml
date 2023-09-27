@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lab-QuanLySinhVien:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eee317e3-904d-4745-8494-63a326606412" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/KhoaHocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/SinhVienController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/KhoaHocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/KhoaHocService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-khoahoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-sinhvien.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-khoahoc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/CartDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/ProductDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form-signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/form-signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update-product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update-sinhvien.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Vy8azqty3onF8Dk6mmRbpjPt8S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/eclipse-workspace/spring-workspace/Lab-QuanLySinhVien/src/main/webapp/WEB-INF/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\eclipse-workspace\spring-workspace\Lab-QuanLySinhVien\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuanthongn.spring.controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.78" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.78" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Lab-QuanLySinhVien:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Lab_QuanLySinhVien_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="1cfe64c2-e287-41b7-aea5-8b5be33c57c1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50982" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Lab-QuanLySinhVien:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eee317e3-904d-4745-8494-63a326606412" name="Changes" comment="" />
+      <created>1695797031228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695797031228</updated>
+      <workItem from="1695797033241" duration="7196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java</url>
+          <line>64</line>
+          <properties class="com.xuanthongn.spring.controllers.HomeController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="15bbd4">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="15bbd4" />
+              <option name="initiateTms" value="1695800400290" />
+              <option name="request" value="add more action for khoahoc controller" />
+              <option name="response" value="" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/KhoaHocRepository.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/KhoaHocService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/SinhVienController.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="364419">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="364419" />
+              <option name="initiateTms" value="1695798079854" />
+              <option name="request" value="add more action for khoahoc controller" />
+              <option name="response" value="" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-khoahoc.jsp" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="523106">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="523106" />
+              <option name="initiateTms" value="1695798107314" />
+              <option name="request" value="add more action for khoahoc controller" />
+              <option name="response" value="" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-khoahoc.jsp" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="52c96e">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" />
+                </list>
+              </option>
+              <option name="id" value="52c96e" />
+              <option name="initiateTms" value="1695797990131" />
+              <option name="request" value="add controller and view khoahoc" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To add a controller and view for `KhoaHoc`, you can follow these steps:&#10;&#10;1. Create a new controller class called `KhoaHocController`:&#10;&#10;```java&#10;@Controller&#10;@RequestMapping(&quot;/khoahoc&quot;)&#10;public class KhoaHocController {&#10;&#10;    @Autowired&#10;    private KhoaHocService khoaHocService;&#10;&#10;    @GetMapping(&quot;/list&quot;)&#10;    public String listKhoaHoc(Model model) {&#10;        List&lt;KhoaHoc&gt; khoaHocList = khoaHocService.getAllKhoaHoc();&#10;        model.addAttribute(&quot;khoahocs&quot;, khoaHocList);&#10;        return &quot;khoahoc-list&quot;;&#10;    }&#10;&#10;    // Add other CRUD operations for KhoaHoc&#10;&#10;}&#10;```&#10;&#10;2. Create a new JSP file called `khoahoc-list.jsp` in the `src/main/webapp/WEB-INF/views` directory. This file will display the list of `KhoaHoc` entities:&#10;&#10;```jsp&#10;&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot; %&gt;&#10;&lt;%@ taglib prefix=&quot;c&quot; uri=&quot;http://java.sun.com/jsp/jstl/core&quot; %&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;KhoaHoc List&lt;/title&gt;&#10;    &lt;!-- Add Bootstrap CSS via CDN --&gt;&#10;    &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div class=&quot;container&quot;&gt;&#10;    &lt;h1 class=&quot;mt-5 mb-4 text-center&quot;&gt;KhoaHoc List&lt;/h1&gt;&#10;&#10;    &lt;table class=&quot;table table-striped&quot;&gt;&#10;        &lt;thead&gt;&#10;        &lt;tr&gt;&#10;            &lt;th&gt;ID&lt;/th&gt;&#10;            &lt;th&gt;Ten Khoa Hoc&lt;/th&gt;&#10;            &lt;th&gt;Nien Khoa&lt;/th&gt;&#10;        &lt;/tr&gt;&#10;        &lt;/thead&gt;&#10;        &lt;tbody&gt;&#10;        &lt;c:forEach items=&quot;${khoahocs}&quot; var=&quot;khoahoc&quot;&gt;&#10;            &lt;tr&gt;&#10;                &lt;td&gt;${khoahoc.id}&lt;/td&gt;&#10;                &lt;td&gt;${khoahoc.tenkhoahoc}&lt;/td&gt;&#10;                &lt;td&gt;${khoahoc.nienkhoa}&lt;/td&gt;&#10;            &lt;/tr&gt;&#10;        &lt;/c:forEach&gt;&#10;        &lt;/tbody&gt;&#10;    &lt;/table&gt;&#10;&#10;    &lt;a href=&quot;${pageContext.request.contextPath}/sinhvien/add&quot; class=&quot;btn btn-primary&quot;&gt;Add SinhVien&lt;/a&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;!-- Add Bootstrap JavaScript and Popper.js via CDN (required for some Bootstrap features) --&gt;&#10;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;```&#10;&#10;3. Update the `HomeController` class to include a mapping for the `/khoahoc/list` URL:&#10;&#10;```java&#10;@Controller&#10;@RequestMapping(&quot;/&quot;)&#10;public class HomeController {&#10;&#10;    @Autowired&#10;    private SinhVienService sinhVienService;&#10;&#10;    @Autowired&#10;    private KhoaHocService khoaHocService;&#10;&#10;    @RequestMapping(value = &quot;/&quot;)&#10;    public String index(Model model) {&#10;        List&lt;SinhVien&gt; listSinhVien = sinhVienService.getSinhViens();&#10;        model.addAttribute(&quot;sinhviens&quot;, listSinhVien);&#10;        return &quot;index&quot;;&#10;    }&#10;&#10;    @RequestMapping(value = &quot;/redirect&quot;)&#10;    public String redirect() {&#10;        return &quot;redirect:/sinhvien/add&quot;;&#10;    }&#10;&#10;    @RequestMapping(value = &quot;/khoahoc/list&quot;)&#10;    public String khoaHocList(Model model) {&#10;        List&lt;KhoaHoc&gt; khoaHocList = khoaHocService.getAllKhoaHoc();&#10;        model.addAttribute(&quot;khoahocs&quot;, khoaHocList);&#10;        return &quot;khoahoc-list&quot;;&#10;    }&#10;}&#10;```&#10;&#10;Make sure to replace `khoaHocService` with the appropriate service class that provides the list of `KhoaHoc` entities.&#10;&#10;With these changes, you can access the list of `KhoaHoc` entities by visiting the `/khoahoc/list` URL. The `khoahoc-list.jsp` view will display the list of `KhoaHoc` entities fetched from the `KhoaHocService`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1695798041367" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="b8fa38">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-sinhvien.jsp" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                </list>
+              </option>
+              <option name="id" value="b8fa38" />
+              <option name="initiateTms" value="1695797788086" />
+              <option name="request" value="in add-sinhvien form will have select option that items are khoahoc" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To add a select option in the `add-sinhvien` form that displays the available `khoahoc` items, you need to make the following changes:&#10;&#10;1. Update the `add-sinhvien.jsp` file to include a select option for `khoahoc` items:&#10;```jsp&#10;&lt;div class=&quot;mb-3&quot;&gt;&#10;    &lt;form:label path=&quot;khoahoc&quot; class=&quot;form-label&quot;&gt;Khóa học:&lt;/form:label&gt;&#10;    &lt;form:select path=&quot;khoahoc&quot; class=&quot;form-control&quot;&gt;&#10;        &lt;form:options items=&quot;${khoahocList}&quot; itemValue=&quot;id&quot; itemLabel=&quot;tenkhoahoc&quot; /&gt;&#10;    &lt;/form:select&gt;&#10;    &lt;form:errors path=&quot;khoahoc&quot; class=&quot;text-danger&quot;/&gt;&#10;&lt;/div&gt;&#10;```&#10;&#10;2. Update the `SinhVien` model class to include a `khoahoc` field and its corresponding getter and setter methods:&#10;```java&#10;public class SinhVien {&#10;    // Other fields&#10;&#10;    @ManyToOne&#10;    @JoinColumn(name = &quot;khoahoc_id&quot;)&#10;    private KhoaHoc khoahoc;&#10;&#10;    // Getter and Setter for khoahoc&#10;}&#10;```&#10;&#10;3. Update the `SinhVienController` class to populate the `khoahocList` model attribute in the `showAddSinhVienForm` method:&#10;```java&#10;@GetMapping(&quot;/add&quot;)&#10;public ModelAndView showAddSinhVienForm() {&#10;    ModelAndView modelAndView = new ModelAndView(&quot;add-sinhvien&quot;);&#10;    modelAndView.addObject(&quot;sinhvien&quot;, new SinhVien());&#10;    modelAndView.addObject(&quot;khoahocList&quot;, khoahocService.getAllKhoaHoc()); // Replace `khoahocService` with the appropriate service class&#10;    return modelAndView;&#10;}&#10;```&#10;&#10;Make sure to replace `khoahocService` with the appropriate service class that provides the list of `khoahoc` items.&#10;&#10;With these changes, the `add-sinhvien` form will display a select option for `khoahoc` items, and the available options will be populated from the `khoahocList` model attribute." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1695797799236" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-sinhvien.jsp" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="b9375d">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" />
+                </list>
+              </option>
+              <option name="id" value="b9375d" />
+              <option name="initiateTms" value="1695797631476" />
+              <option name="request" value="add sinhviencontroller with crud and go to view " />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To add a `SinhVienController` with CRUD operations and navigate to the view, you can make the following changes to the `HomeController.java` file:&#10;&#10;1. Import the necessary dependencies:&#10;```java&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.web.bind.annotation.*;&#10;import org.springframework.web.servlet.ModelAndView;&#10;```&#10;&#10;2. Add the `SinhVienController` class:&#10;```java&#10;@Controller&#10;@RequestMapping(&quot;/sinhvien&quot;)&#10;public class SinhVienController {&#10;&#10;    @Autowired&#10;    private SinhVienService sinhVienService;&#10;&#10;    @GetMapping(&quot;/add&quot;)&#10;    public ModelAndView showAddSinhVienForm() {&#10;        ModelAndView modelAndView = new ModelAndView(&quot;add-sinhvien&quot;);&#10;        modelAndView.addObject(&quot;sinhvien&quot;, new SinhVien());&#10;        return modelAndView;&#10;    }&#10;&#10;    @PostMapping(&quot;/add&quot;)&#10;    public String addSinhVien(@ModelAttribute(&quot;sinhvien&quot;) SinhVien sinhvien) {&#10;        sinhVienService.saveSinhVien(sinhvien);&#10;        return &quot;redirect:/&quot;;&#10;    }&#10;&#10;    @GetMapping(&quot;/edit/{id}&quot;)&#10;    public ModelAndView showEditSinhVienForm(@PathVariable(&quot;id&quot;) Long id) {&#10;        ModelAndView modelAndView = new ModelAndView(&quot;update-sinhvien&quot;);&#10;        SinhVien sinhvien = sinhVienService.getSinhVien(id).orElseThrow(() -&gt; new IllegalArgumentException(&quot;Invalid SinhVien ID&quot;));&#10;        modelAndView.addObject(&quot;sinhvien&quot;, sinhvien);&#10;        return modelAndView;&#10;    }&#10;&#10;    @PostMapping(&quot;/update/{id}&quot;)&#10;    public String updateSinhVien(@PathVariable(&quot;id&quot;) Long id, @ModelAttribute(&quot;sinhvien&quot;) SinhVien sinhvien) {&#10;        SinhVien existingSinhVien = sinhVienService.getSinhVien(id).orElseThrow(() -&gt; new IllegalArgumentException(&quot;Invalid SinhVien ID&quot;));&#10;        existingSinhVien.setHoten(sinhvien.getHoten());&#10;        existingSinhVien.setDiachi(sinhvien.getDiachi());&#10;        existingSinhVien.setNgaysinh(sinhvien.getNgaysinh());&#10;        existingSinhVien.setGioitinh(sinhvien.isGioitinh());&#10;        existingSinhVien.setQuequan(sinhvien.getQuequan());&#10;        sinhVienService.saveSinhVien(existingSinhVien);&#10;        return &quot;redirect:/&quot;;&#10;    }&#10;&#10;    @GetMapping(&quot;/delete/{id}&quot;)&#10;    public String deleteSinhVien(@PathVariable(&quot;id&quot;) Long id) {&#10;        sinhVienService.deleteSinhVien(id);&#10;        return &quot;redirect:/&quot;;&#10;    }&#10;}&#10;```&#10;&#10;3. Update the `HomeController` class to remove the CRUD operations related to `SinhVien` and add a redirect mapping for the root URL:&#10;```java&#10;@Controller&#10;@RequestMapping(&quot;/&quot;)&#10;public class HomeController {&#10;&#10;    @Autowired&#10;    private SinhVienService sinhVienService;&#10;&#10;    @RequestMapping(value = &quot;/&quot;)&#10;    public String index(Model model) {&#10;        List&lt;SinhVien&gt; listSinhVien = sinhVienService.getSinhViens();&#10;        model.addAttribute(&quot;sinhviens&quot;, listSinhVien);&#10;        return &quot;index&quot;;&#10;    }&#10;&#10;    // Remove other methods related to SinhVien&#10;&#10;    @RequestMapping(value = &quot;/redirect&quot;)&#10;    public String redirect() {&#10;        return &quot;redirect:/sinhvien/add&quot;;&#10;    }&#10;}&#10;```&#10;&#10;4. Create a new JSP file called `update-sinhvien.jsp` in the `src/main/webapp/WEB-INF/views` directory. This file will be used for editing a `SinhVien` entity. You can use a similar structure as the `add-sinhvien.jsp` file, but make sure to update the form action URL and include hidden input fields for the `id` attribute.&#10;&#10;5. Finally, update the `index.jsp` file or any other appropriate view file to include a link/button that redirects to the `add-sinhvien` page. For example:&#10;```html&#10;&lt;a href=&quot;${pageContext.request.contextPath}/redirect&quot; class=&quot;btn btn-primary&quot;&gt;Add SinhVien&lt;/a&gt;&#10;```&#10;&#10;With these changes, you should be able to navigate to the `add-sinhvien` page by clicking on the &quot;Add SinhVien&quot; button/link and perform CRUD operations on the `SinhVien` entity." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1695797654257" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/KhoaHoc.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/repository/SinhVienRepository.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/services/SinhVienService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/controllers/HomeController.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="c46d20">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-product.jsp" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                </list>
+              </option>
+              <option name="id" value="c46d20" />
+              <option name="initiateTms" value="1695797256326" />
+              <option name="request" value="add view for add sinhvien entity" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To add a view for adding a `SinhVien` entity, you can create a new JSP file called `add-sinhvien.jsp` in the `src/main/webapp/WEB-INF/views` directory. Here's an example of how the `add-sinhvien.jsp` file could look like:&#10;&#10;```jsp&#10;&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot; pageEncoding=&quot;UTF-8&quot; %&gt;&#10;&lt;%@ taglib prefix=&quot;c&quot; uri=&quot;http://java.sun.com/jsp/jstl/core&quot; %&gt;&#10;&lt;%@ taglib prefix=&quot;form&quot; uri=&quot;http://www.springframework.org/tags/form&quot; %&gt;&#10;&lt;%@page isELIgnored=&quot;false&quot; %&gt;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;title&gt;Add SinhVien&lt;/title&gt;&#10;&#10;    &lt;!-- Add Bootstrap CSS via CDN --&gt;&#10;    &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&lt;div class=&quot;container w-50&quot;&gt;&#10;    &lt;h1 class=&quot;mt-5 mb-4 text-center&quot;&gt;Add SinhVien&lt;/h1&gt;&#10;&#10;    &lt;form:form action=&quot;saveSinhVien&quot; method=&quot;post&quot; modelAttribute=&quot;sinhvien&quot;&gt;&#10;        &lt;div class=&quot;mb-3&quot;&gt;&#10;            &lt;form:label path=&quot;hoten&quot; class=&quot;form-label&quot;&gt;Họ tên:&lt;/form:label&gt;&#10;            &lt;form:input path=&quot;hoten&quot; class=&quot;form-control&quot;/&gt;&#10;            &lt;form:errors path=&quot;hoten&quot; class=&quot;text-danger&quot;/&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;mb-3&quot;&gt;&#10;            &lt;form:label path=&quot;diachi&quot; class=&quot;form-label&quot;&gt;Địa chỉ:&lt;/form:label&gt;&#10;            &lt;form:input path=&quot;diachi&quot; class=&quot;form-control&quot;/&gt;&#10;            &lt;form:errors path=&quot;diachi&quot; class=&quot;text-danger&quot;/&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;mb-3&quot;&gt;&#10;            &lt;form:label path=&quot;ngaysinh&quot; class=&quot;form-label&quot;&gt;Ngày sinh:&lt;/form:label&gt;&#10;            &lt;form:input path=&quot;ngaysinh&quot; class=&quot;form-control&quot;/&gt;&#10;            &lt;form:errors path=&quot;ngaysinh&quot; class=&quot;text-danger&quot;/&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;mb-3&quot;&gt;&#10;            &lt;form:label path=&quot;gioitinh&quot; class=&quot;form-label&quot;&gt;Giới tính:&lt;/form:label&gt;&#10;            &lt;form:select path=&quot;gioitinh&quot; class=&quot;form-control&quot;&gt;&#10;                &lt;form:option value=&quot;true&quot;&gt;Nam&lt;/form:option&gt;&#10;                &lt;form:option value=&quot;false&quot;&gt;Nữ&lt;/form:option&gt;&#10;            &lt;/form:select&gt;&#10;            &lt;form:errors path=&quot;gioitinh&quot; class=&quot;text-danger&quot;/&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;mb-3&quot;&gt;&#10;            &lt;form:label path=&quot;quequan&quot; class=&quot;form-label&quot;&gt;Quê quán:&lt;/form:label&gt;&#10;            &lt;form:input path=&quot;quequan&quot; class=&quot;form-control&quot;/&gt;&#10;            &lt;form:errors path=&quot;quequan&quot; class=&quot;text-danger&quot;/&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;text-center&quot;&gt;&#10;            &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Submit&lt;/button&gt;&#10;        &lt;/div&gt;&#10;        &lt;a href=&quot;${pageContext.request.contextPath}/&quot;&gt;Back to SinhVien List&lt;/a&gt;&#10;    &lt;/form:form&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;!-- Add Bootstrap JavaScript and Popper.js via CDN (required for some Bootstrap features) --&gt;&#10;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;```&#10;&#10;Make sure to update the form action URL (`action=&quot;saveSinhVien&quot;`) to the appropriate URL for saving the `SinhVien` entity.&#10;&#10;Additionally, you may need to update the `SinhVien` model class to include the necessary fields (`hoten`, `diachi`, `ngaysinh`, `gioitinh`, `quequan`) and their corresponding getters and setters." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1695797294929" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/xuanthongn/spring/models/SinhVien.java" />
+                  <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/add-product.jsp" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
